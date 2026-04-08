@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蒋昊 - 个人介绍</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-container"></div>
+    
+    <div class="magic-cursor"></div>
+    
+    <div class="container">
+        <header class="header">
+            <div class="avatar" id="avatar">
+                <div class="avatar-placeholder">蒋</div>
+                <div class="sparkles"></div>
+            </div>
+            <h1 class="name" id="name">蒋昊</h1>
+            <p class="subtitle" id="subtitle">很高兴认识你!</p>
+            <div class="interaction-tips">
+                <span class="desktop-tip">🖱️ 点击头像 | 点击卡片 | 拖动鼠标 | 按键盘</span>
+                <span class="mobile-tip">👆 点击头像 | 点击卡片 | 试试下方按钮</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="section about">
+                <h2 class="section-title" data-text="关于我">关于我</h2>
+                <div class="card" id="card1">
+                    <p>我是蒋昊，平时性格开朗，不喜欢斤斤计较，和身边人相处都比较融洽。</p>
+                    <div class="card-shake-hint">👆 双击试试</div>
+                </div>
+            </section>
+
+            <section class="section hobbies">
+                <h2 class="section-title" data-text="我的爱好">我的爱好</h2>
+                <div class="card" id="card2">
+                    <p>我属于 "随缘型选手"，没有特别执着的某一项，不管是出去走走逛逛，还是宅着放松消遣，都觉得挺舒服。</p>
+                    <div class="card-shake-hint">👆 双击试试</div>
+                </div>
+            </section>
+
+            <section class="section personality">
+                <h2 class="section-title" data-text="性格特点">性格特点</h2>
+                <div class="traits-grid">
+                    <div class="trait-card" data-trait="开朗乐观">
+                        <div class="trait-icon">😊</div>
+                        <div class="trait-title">开朗乐观</div>
+                        <div class="trait-emoji">🎉</div>
+                    </div>
+                    <div class="trait-card" data-trait="随和友善">
+                        <div class="trait-icon">🤝</div>
+                        <div class="trait-title">随和友善</div>
+                        <div class="trait-emoji">💝</div>
+                    </div>
+                    <div class="trait-card" data-trait="乐于尝试">
+                        <div class="trait-icon">✨</div>
+                        <div class="trait-title">乐于尝试</div>
+                        <div class="trait-emoji">🚀</div>
+                    </div>
+                    <div class="trait-card" data-trait="融入集体">
+                        <div class="trait-icon">👥</div>
+                        <div class="trait-title">融入集体</div>
+                        <div class="trait-emoji">🎊</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section closing">
+                <h2 class="section-title" data-text="期待与你成为朋友">期待与你成为朋友</h2>
+                <div class="card" id="card3">
+                    <p>我很乐意尝试新鲜事物，也愿意融入集体，和大家一起聊天、玩耍。非常高兴能认识各位，期待之后和大家成为朋友，一起度过轻松愉快的时光。</p>
+                    <div class="card-shake-hint">👆 双击试试</div>
+                </div>
+            </section>
+            
+            <section class="section fun-section">
+                <h2 class="section-title">🎮 互动小天地</h2>
+                <div class="fun-buttons">
+                    <button class="fun-btn" id="btn-confetti">🎊 撒花</button>
+                    <button class="fun-btn" id="btn-shake">🎯 震动模式</button>
+                    <button class="fun-btn" id="btn-rainbow">🌈 彩虹模式</button>
+                    <button class="fun-btn" id="btn-sparkle">✨ 闪光特效</button>
+                    <button class="fun-btn" id="btn-fireworks">🎆 放烟花</button>
+                    <button class="fun-btn" id="btn-bounce">⬆️ 弹跳模式</button>
+                    <button class="fun-btn neon-btn" id="btn-neon">💡 霓虹模式</button>
+                    <button class="fun-btn" id="btn-3d">🔄 3D旋转</button>
+                    <button class="fun-btn" id="btn-matrix">🟢 矩阵雨</button>
+                    <button class="fun-btn" id="btn-superfireworks">💥 超级烟花</button>
+                    <button class="fun-btn" id="btn-typing">⌨️ 打字机</button>
+                    <button class="fun-btn" id="btn-magnet">🧲 磁铁模式</button>
+                    <button class="fun-btn bomb-btn" id="btn-bomb">💣 炸弹</button>
+                </div>
+            </section>
+            
+            <div id="matrix-container"></div>
+            <div id="neon-overlay" class="hidden"></div>
+        </main>
+
+        <footer class="footer">
+            <p class="desktop-footer">© 2026 蒋昊 - 很高兴认识你 | 按 R 键重置特效</p>
+            <p class="mobile-footer">© 2026 蒋昊 - 很高兴认识你</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
